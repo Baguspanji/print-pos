@@ -1,6 +1,6 @@
 <?php
 
-require_once "PrintData.php";
+require_once "src/PrintData.php";
 
 $print = new PrintData();
 $request_method = $_SERVER["REQUEST_METHOD"];

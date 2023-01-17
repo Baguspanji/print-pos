@@ -1,9 +1,9 @@
 <?php
 
 require_once 'vendor/autoload.php';
-require_once 'Helpers/ReceiptPrinter/Item.php';
-require_once 'Helpers/ReceiptPrinter/Store.php';
-require_once 'Helpers/Helper.php';
+require_once 'helpers/ReceiptPrinter/Item.php';
+require_once 'helpers/ReceiptPrinter/Store.php';
+require_once 'helpers/Helper.php';
 
 use Mike42\Escpos\CapabilityProfile;
 use Mike42\Escpos\EscposImage;

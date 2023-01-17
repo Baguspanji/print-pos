@@ -1,7 +1,7 @@
 <?php
 
 require_once 'vendor/autoload.php';
-require_once 'Helpers/ReceiptPrinter/ReceiptPrinter.php';
+require_once 'helpers/ReceiptPrinter/ReceiptPrinter.php';
 
 class PrintData
 {
@@ -9,7 +9,7 @@ class PrintData
 
     public function __construct()
     {
-        $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+        $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/..');
         $dotenv->load();
     }
 
